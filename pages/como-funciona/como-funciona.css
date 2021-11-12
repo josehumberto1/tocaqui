@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.banner{
+    background-image: url(/images/foto-banners/pexels-eduardo-dutra-2115217.jpg);
+    background-size: cover
+}
+
+.button-responsivo{
+    background-color: transparent;
+    border: none;
+    color: white;
+    float: right;
+    display: none;
+}
+
+.logo{
+    width: 10%;
+    float: inline-start;
+    display: inline;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 200%;
+    width: unset;
+    font-weight: bold;
+    color: white;
+    padding: auto;
+    padding: 10%;
+}
+
+.menu{
+    padding: 3%;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+ol:hover{
+    cursor: pointer;
+    color: #E01747
+}
+
+
+.menu ol{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none
+}
+
+.menu-home{
+    font-weight: bold;
+}
+
+.menu-quem-somos{
+    font-weight: bold;
+}
+
+.menu-como-funciona{
+    font-weight: bold;
+}
+
+.menu-parceiros{
+    font-weight: bold;
+}
+
+.menu-blog{
+    font-weight: bold;
+}
+
+.estabelecimento{
+    display: inline;
+    font-weight: bold;
+}
+
+.botao-estabelecimento{
+    background-color: white;
+    border: none;
+    padding: 1%;
+    color:#E01747;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+    cursor: pointer;
+}
+
+.botao-estabelecimento:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white
+}
+
+.musicista{
+    display: inline;
+}
+
+.botao-musicista{
+    background-color: #E01747;
+    border: none;
+    padding: 1%;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+    cursor: pointer;
+}
+
+.botao-musicista:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white
+}
+
+.cadastro-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+.cadastro-1 h2{
+
+    font-family: Montserrat;
+    color: #E01747;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 9%;
+    margin-bottom: 3%;
+    padding: center;
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+
+.cadastro-1 p{
+    text-align: left;
+    margin-left: 2%;
+    width: 500px;
+    padding: center;
+    text-align: left;
+    font-family: Montserrat;
+    color: #666666;
+    font-size: 15;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    line-height: 30px;
+    margin-top: 13%;
+    margin-bottom: 8%;
+}
+
+.cadastro-1 img{
+    padding: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+.cadastro-2{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+
+.cadastro-2 h2{
+
+    font-family: Montserrat;
+    color: #E01747;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 9%;
+    margin-bottom: 3%;
+    padding: center;
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+
+.cadastro-2 p{
+    text-align: left;
+    margin-left: 2%;
+    width: 500px;
+    padding: center;
+    text-align: left;
+    font-family: Montserrat;
+    color: #666666;
+    font-size: 15;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    line-height: 30px;
+    margin-top: 13%;
+    margin-bottom: 8%;
+}
+
+.cadastro-2 img{
+    padding: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+.cadastro-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+
+.cadastro-3 h2{
+    font-family: Montserrat;
+    color: #E01747;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 9%;
+    margin-bottom: 3%;
+    padding: center;
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+
+.cadastro-3 p{
+    text-align: left;
+    margin-left: 2%;
+    width: 500px;
+    padding: center;
+    text-align: left;
+    font-family: Montserrat;
+    color: #666666;
+    font-size: 15;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    line-height: 30px;
+    margin-top: 13%;
+    margin-bottom: 8%;
+}
+
+.cadastro-3 img{
+    padding: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.cadastro-4{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+.cadastro-4 h2{
+    font-family: Montserrat;
+    color: #E01747;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 9%;
+    margin-bottom: 3%;
+    padding: center;
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+
+.cadastro-4 p{
+    text-align: left;
+    margin-left: 2%;
+    width: 500px;
+    padding: center;
+    text-align: left;
+    font-family: Montserrat;
+    color: #666666;
+    font-size: 15;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    line-height: 30px;
+    margin-top: 13%;
+    margin-bottom: 8%;
+}
+
+.cadastro-4 img{
+    padding: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 30%;
+}
+
+.cadastro-5{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding: 8%;
+    color: #E01747;
+    font-weight: bold;
+}
+
+.botao-fazer-parte{
+    background-color: #E01747;
+    border: none;
+    padding: 1%;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 55px 13px 55px;
+    margin-top: 3%;
+}
+
+.footer-1{
+    display: flex;
+    padding: auto;
+    background-color:#363636;
+    font-family: Montserrat;
+    text-align: left;
+}
+
+.colum-1{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.quem-somos{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.colum-2{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.como-funciona{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.colum-3{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.links-uteis{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.redes-sociais {
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    line-height: 170%;
+    padding: center;
+}
+
+.icone-facebook{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-insta{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-twitter{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-linkedIn{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-youtube{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.logo-rodape{
+    width: 10%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-2{
+    background-color:#363636;
+}
+
+.copyright{
+    font-family: Montserrat;
+    padding: 2%;
+}
+
+
+
+
+
+@media(max-width: 950px)
+{
+    .logo{
+        align-items: center;
+        margin: auto;
+        padding: auto;
+        min-width: 30%;
+        padding-top: 30px;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    ol:hover{
+        cursor: pinter;
+        opacity: 0.8;
+    }
+
+    .footer-1{
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colum-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    .colum-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .colum-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-rodape{
+        min-width: 22%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-2{
+        text-align: center;
+    }
+
+    .redes-sociais{
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .copyright{
+        padding-bottom: 10%;
+        font-size: 12px;
+        size: 50px;
+    }
+
+    .button-responsivo{
+        display: flex;
+        font-size: 30px;
+        padding-top: 70px;
+        padding-right: 30px;
+    }
+    
+    .button-responsivo:focus ˜ ol {
+        height: 250px
+
+    }
+
+    .menu{
+        text-align: justify;
+        margin-right: none;
+        background-color: black; opacity: 80%;
+    }
+        
+
+    .titulo{
+        padding-top: 40%;
+        font-size: 25px;
+    }
+    
+}
