@@ -231,14 +231,6 @@ h2{
     margin-bottom: 6%;
 }
 
-.galeria{
-    font-family: Montserrat;
-    color: #666666;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: 14px;
-}
 
 .botao-enviar{
     background-color: #E01747;
@@ -262,11 +254,18 @@ h2{
     margin-top: 2%;
 }
 
-input[type=image], select {
-    display: flexbox;
+.grid-galeria{
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 90px 10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+input[type=image], select {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px;
+    margin: 5px 8px;
     border: 1px;
     font-size: 14px;
     border-style: dotted;
@@ -274,11 +273,6 @@ input[type=image], select {
     color: #666666;
 }
 
-.fotos-galeria{
-    display: flexbox;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
 
 /*RODAPÉ*/
